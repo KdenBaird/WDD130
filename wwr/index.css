@@ -1,0 +1,17 @@
+.blue {
+  color: blue;
+  text-align: center;
+}
+.green {
+  color: green;
+}
+p {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#small_purple {
+  font-size: 100%%;
+  color: purple;
+}
