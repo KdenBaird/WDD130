@@ -178,3 +178,46 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+#assist {
+  width: 250px;
+  border: #232c33;
+  padding: 15px;
+  border-style: solid;
+}
+#smile {
+  width: 250px;
+  padding: 15px;
+  border: #232c33;
+  border-style: solid;
+  position: relative;
+  top: 10px;
+}
+#Isaiah {
+  width: 250px;
+  padding: 15px;
+  border: #232c33;
+  border-style: solid;
+}
+#staff {
+  width: 250px;
+  padding: 15px;
+  border: #232c33;
+  border-style: solid;
+  position: relative;
+  top: 10px;
+}
+#FAQ {
+  width: 250px;
+  padding: 15px;
+  border: #232c33;
+  border-style: solid;
+}
+#phone {
+  width: 250px;
+  padding: 15px;
+  border: #232c33;
+  border-style: solid;
+  position: relative;
+  top: 10px;
+}
