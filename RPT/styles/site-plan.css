@@ -221,3 +221,7 @@ nav a:hover {
   position: relative;
   top: 10px;
 }
+
+.wireframes {
+  width: 400px;
+}
