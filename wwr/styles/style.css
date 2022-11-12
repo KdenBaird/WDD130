@@ -266,7 +266,8 @@ nav {
   border-color: #6f7364;
   float: right;
   position: relative;
-  top: -30px;
+  top: 0px;
+  left: -15px;
   box-shadow: 5px 5px 10px black;
 }
 #header4FAQ {
@@ -280,6 +281,7 @@ nav {
 #h2FAQ {
   position: relative;
   left: 60px;
+  padding: 50px;
 }
 .Answers {
   position: relative;
