@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Caladea&family=Roboto&display=swap");
 
-
 #logo {
- 
   width: 200px;
 }
 .header {
@@ -10,12 +8,11 @@
   background-color: #5a7d7c;
   color: #dadff7;
 }
-h2 {
-}
+
 .left-align {
   text-align: left;
-  font-style: ;
-  }
+  font-weight: bold;
+}
 
 body {
   max-width: 1200px;
@@ -37,15 +34,15 @@ h6 {
   font-family: Roboto;
   color: #5a7d7c;
 }
-.h1 { font-family: Roboto;
+.h1 {
+  font-family: Roboto;
   color: #5a7d7c;
-  
-  height: 50px 
-}}
+
+  height: 50px;
+}
 .h2 {
   text-align: center;
   color: #5a7d7c;
-
 }
 hr {
   height: 3px;
@@ -57,14 +54,14 @@ header {
   text-align: center;
   color: #5a7d7c;
   background-color: var(#5a7d7c);
-    display: grid;
-    grid-template-columns: 150px auto;
-    background-color: #cecece;
-  }
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #cecece;
 }
+
 header > h1,
 header > h2 {
-  color: var( #dadff7;);
+  color: var(#dadff7;);
 }
 
 p {
@@ -105,7 +102,6 @@ p.colored {
 }
 
 nav {
-  
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -113,7 +109,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 nav a {
@@ -178,32 +173,35 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-footer { 
+footer {
   background-color: #5a7d7c;
-  color:#dadff7;
+  color: #dadff7;
   padding: 25px 50px;
   margin-top: 200px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-    
-  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
+.flexlink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 #smile {
   width: 300px;
   border: #ac7b84;
   border-style: solid;
   border-width: 10px;
-  
+}
+
+.home-image {
+  display: flex;
 }
 #client {
-  width:300px;
+  width: 300px;
   border: #ac7b84;
   border-style: solid;
   border-width: 10px;
-  
-  
-
 }
 #Isaiah {
   width: 300px;
@@ -216,7 +214,6 @@ align-items: center;
   padding-left: 1000px;
   border: #ac7b84;
   border-style: solid;
-  
 }
 .ul {
   font-weight: bold;
@@ -226,9 +223,8 @@ align-items: center;
   border: #ac7b84;
   border-style: solid;
   padding: 10px;
-  
 }
-#Phone { 
+#Phone {
   width: 300px;
   padding: 10px;
   border: #ac7b84;
@@ -241,7 +237,6 @@ align-items: center;
   padding: 16px;
   font-size: 16px;
   border: none;
-  
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -256,7 +251,7 @@ align-items: center;
   position: absolute;
   background-color: #5a7d7c;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -269,10 +264,16 @@ align-items: center;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ac7b84;}
+.dropdown-content a:hover {
+  background-color: #ac7b84;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #ac7b84;}
+.dropdown:hover .dropbtn {
+  background-color: #ac7b84;
+}
